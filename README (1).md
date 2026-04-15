@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project implements a **production-grade mean reversion backtesting system** built from scratch in Python. It goes well beyond a textbook z-score strategy by incorporating multi-factor signal confirmation, dynamic risk management, walk-forward optimisation, and Monte Carlo analysis — techniques used by quantitative hedge funds.
+This project implements a **mean reversion backtesting system** built in Python. It implements a z-score strategy by incorporating multi-factor signal confirmation, dynamic risk management, walk-forward optimisation, and Monte Carlo analysis.
 
 The core hypothesis: **asset prices that deviate significantly from their statistical mean tend to revert**. This project rigorously tests whether that hypothesis can be profitably exploited after accounting for transaction costs, volatility regimes, and parameter uncertainty.
 
@@ -17,7 +17,7 @@ The core hypothesis: **asset prices that deviate significantly from their statis
 +---------------------------------------------------------+
 |                    SIGNAL PIPELINE                      |
 |                                                         |
-|  Raw OHLCV  ->  Indicators  ->  Filters  ->  Signal    |
+|  Raw OHLCV  ->  Indicators  ->  Filters  ->  Signal     |
 |                                                         |
 |  Indicators:          Filters:                          |
 |  - Z-score            - ADX regime filter               |
