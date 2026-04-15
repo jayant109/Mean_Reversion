@@ -1,5 +1,5 @@
 # Mean Reversion Trading System
-### Advanced Z-Score Backtesting Framework with Regime Filtering & Risk Management
+### Z-Score Backtesting Framework with Regime Filtering & Risk Management
 
 ---
 
